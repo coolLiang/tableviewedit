@@ -22,6 +22,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    1112848567
+    
+//    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/app/id1112848567"]];
+    
+//     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1112848567&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8"]];
+    
+    
+//    itms-apps://itunes.apple.com/app/idYOUR_APP_ID
+    
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     self.tableview = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
